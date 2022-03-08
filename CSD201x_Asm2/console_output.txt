@@ -1,0 +1,34 @@
+
+P01 | Miliket | 10 | 5.2
+P02 | Apple | 5 | 4.3
+P03 | Sugar | 12 | 25.1
+P04 | Book | 9 | 5.2
+P05 | Rose | 7 | 15.4
+P07 | Beer | 11 | 12.2
+Input new ID: 
+p10
+Input Product's Name: 
+heroin
+Input Product's quantity: 
+100
+Input Product's price: 
+200.0
+P01 | Miliket | 10 | 5.2
+P02 | Apple | 5 | 4.3
+P03 | Sugar | 12 | 25.1
+P04 | Book | 9 | 5.2
+P05 | Rose | 7 | 15.4
+P07 | Beer | 11 | 12.2
+p10 | heroin | 100 | 200.0
+Input the ID to search: 
+p10
+p10 | heroin | 100 | 200.0
+Input the bcode to delete: 
+p10
+Deleted!
+P01 | Miliket | 10 | 5.2
+P02 | Apple | 5 | 4.3
+P03 | Sugar | 12 | 25.1
+P04 | Book | 9 | 5.2
+P05 | Rose | 7 | 15.4
+P07 | Beer | 11 | 12.2

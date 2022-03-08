@@ -1,0 +1,52 @@
+1. Thuật toán bubble sort:
+	- Các phần tử giá trị lớn sẽ được đẩy xuống cuối dãy và các phần nhỏ sẽ được đẩy dần lên đầu
+	  dãy
+	- Công thức tính độ phức tạp:
+		Thuật toán sử dụng 2 vòng lặp for lồng nhau. Giả sử có 1 mảng gồm n phần tử:
+		Vòng lặp for bên ngoài sẽ chạy n lần và vòng lặp for bên trong sẽ chạy n^2/2 lần
+		thực hiện n^2/2 lần so sánh và n^2/2 lần đổi chỗ.
+		=> Độ phức tạp sẽ là n^2/2 = 1/2*n^2
+		=> Áp dụng quy tắc bỏ hằng số => độ phức tạp của thuật toán là O(n^2)
+
+	- Best case: 0 lần hoán đổi vị trí, n^2/2 lần so sánh (dãy ban đầu đã được sắp xếp đúng
+	  với thứ tự ta cần sắp xếp) => độ phức tạp O(n^2)
+
+	- Worst case: n^2/2 lần hoán đổi vị trí và so sánh (dãy ban đầu có thứ tự ngược lại
+	  với thứ tự ta cần sắp xếp) => độ phức tạp O(n^2)
+
+	- Average case: n^2/4 lần hoán đổi vị trí và so sánh => độ phức tạp O(n^2)
+
+2. Thuật toán selection sort:
+	- So sánh phần tử được chọn trong dãy với lần lượt các phần tử phía sau nếu giá trị phần tử
+	  phía sau nếu phần tử sau lớn hơn thì sẽ hoán đổi vị trí với phần tử hiện tại.
+	- Công thức tính độ phức tạp:
+	  	Thuật toán sử dụng 2 vòng lặp for lồng nhau. Giả sử có 1 mảng gồm n phần tử:
+		Vòng lặp for bên ngoài sẽ chạy n lần và vòng lặp for bên trong sẽ chạy n^2/2 lần
+		thực hiện n^2/2 lần so sánh và n-1 lần đổi chỗ.
+		=> Độ phức tạp sẽ là n^2/2 = 1/2*n^2
+		=> Áp dụng quy tắc bỏ hằng số => độ phức tạp của thuật toán là O(n^2)
+
+	- Best case: 0 lần hoán đổi vị trí, n^2/2 lần so sánh (dãy ban đầu đã được sắp xếp đúng
+	  với thứ tự ta cần sắp xếp) => độ phức tạp O(n^2)
+
+	- Worst case: n - 1 lần hoán đổi vị trí và n^2/2 lần so sánh (dãy ban đầu có thứ tự ngược lại
+	  với thứ tự ta cần sắp xếp) => độ phức tạp O(n^2)
+
+	- Average case: O(n) lần hoán đổi vị trí và n^2/2 lần so sánh => độ phức tạp O(n^2)
+
+3. Thuật toán insertion sort:
+	- Lần lượt so sánh và chèn các phần tử phía sau vào dãy đã được sắp xếp phía trước.
+	- Công thức tính độ phức tạp:
+		Thuật toán sử dụng vòng lặp for và while lồng nhau. Giả sử có 1 mảng gồm n phần tử:
+		Vòng lặp for bên ngoài sẽ chạy n lần và vòng lặp while bên trong sẽ chạy n^2/2 lần
+		thực hiện n^2/2 lần so sánh và n^2/2 lần đổi chỗ.
+		=> Độ phức tạp sẽ là n^2/2 = 1/2*n^2
+		=> Áp dụng quy tắc bỏ hằng số => độ phức tạp của thuật toán là O(n^2)
+
+	- Best case: 0 lần hoán đổi vị trí, n-1 lần so sánh (dãy ban đầu đã được sắp xếp đúng
+	  với thứ tự ta cần sắp xếp) => độ phức tạp O(n)
+
+	- Worst case: n^2/2 lần hoán đổi vị trí và so sánh (dãy ban đầu có thứ tự ngược lại
+	  với thứ tự ta cần sắp xếp) => độ phức tạp O(n^2)
+
+	- Average case: n^2/4 lần hoán đổi vị trí và so sánh => độ phức tạp O(n^2)
